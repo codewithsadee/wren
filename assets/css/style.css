@@ -1272,6 +1272,8 @@ body.nav-active { overflow: hidden; }
 
   .container { max-width: 1140px; }
 
+  body.nav-active { overflow-y: overlay; }
+
 
 
   /**
@@ -1283,7 +1285,8 @@ body.nav-active { overflow: hidden; }
   .navbar-bottom,
   .copyright-text { display: none; }
 
-  .navbar {
+  .navbar,
+  .navbar.active {
     all: unset;
     display: block;
   }
