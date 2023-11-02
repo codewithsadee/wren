@@ -239,7 +239,7 @@ body.nav-active { overflow: hidden; }
 
 .headline-4 {
   font-size: var(--fontSize-3);
-
+  font-weight: bold;
 }
 
 .section-title { margin-block-end: 10px; }
@@ -324,7 +324,9 @@ body.nav-active { overflow: hidden; }
 }
 
 
-
+.icon-text {
+  margin-left: 1em;
+}
 
 
 /*-----------------------------------*\
@@ -949,9 +951,15 @@ body.nav-active { overflow: hidden; }
   transform: translateY(-2px);
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
 
-
-
+.nav-logo {
+  margin: 0;
+}
 
 /*-----------------------------------*\
   #BACK TO TOP
