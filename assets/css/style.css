@@ -234,6 +234,12 @@ body.nav-active { overflow: hidden; }
 .headline-3 {
   font-size: var(--fontSize-2);
   line-height: var(--lineHeight-2);
+  margin-bottom: 10px;
+}
+
+.headline-4 {
+  font-size: var(--fontSize-3);
+
 }
 
 .section-title { margin-block-end: 10px; }
