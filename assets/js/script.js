@@ -1,6 +1,10 @@
 'use strict';
 
+import { Octokit } from "octokit";
 
+const octokit = new Octokit({
+  auth: 'YOUR-TOKEN'
+});
 
 /**
  * Add event listener on multiple elements
